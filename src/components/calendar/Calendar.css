@@ -1,0 +1,91 @@
+
+.cal {
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 75%;
+    margin-left: 20%;
+    background-color:white;
+   position: fixed;
+    height: 95%;
+    overflow: auto;
+    text-align: justify;
+    padding: 2rem;
+    overflow: auto
+}
+
+table, td, th {
+    border: 0.01rem solid black;
+    opacity: 0.8;
+    
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  th,td {
+    height: 70px;
+    width: 50px;
+  }
+  .today{
+      font-size: large;
+      font-weight:500;
+      opacity: 0.6;
+  }
+ span{
+     padding: 0.7rem;
+ }
+ 
+ .dayweek{
+     display: flex;
+     justify-content: space-between;
+ }
+ .buttons {
+     display: flex;
+     
+ }
+ .physicians{
+     border: 1px solid balck;
+     padding: 0.5rem;
+     border-radius: 2rem;
+     background-color:rgb(245, 238, 179);
+   
+ }
+ .actionbutton {
+    display: flex;
+    text-align: center;
+    justify-items:stretch;
+    align-items: center;
+    justify-content:space-between
+ }
+
+.button{
+    padding: 0.5rem;
+    display: flex;
+    margin-top: 1rem !important;
+    margin-bottom: 0.8rem;
+    justify-content: space-between;
+    float:left;
+}
+button.check{
+    background-color:rgb(245, 238, 179);
+    border: none;
+    outline: none;
+}
+button.cancel{
+    background: transparent;
+    color: dimgrey;
+    outline: none;
+    border: none;
+}
+.modalbody{
+    height: 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.modalbody :hover{
+    background-color:rgb(245, 238, 179);
+}

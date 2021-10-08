@@ -1,0 +1,67 @@
+.sidemenu{
+    
+    margin-top: 2rem;
+  
+    text-align: center;
+    align-items: centre;
+    align-content: center;
+    width: 20%;
+    background-color:rgb(242, 250, 215);
+   position: fixed;
+    height: 95%;
+    overflow: auto;
+    text-align: justify;
+    display: block;
+    padding: 2rem
+   
+
+}
+
+.e-input-group:not(.e-float-icon-left), .e-input-group.e-control-wrapper:not(.e-float-icon-left) {
+  /* border-bottom: 1px solid; */
+  border:none
+}
+
+
+.img{
+    width: 5; height: 5; border-radius: 50%;
+}
+
+
+  .anquora {
+      font-size: larger;
+      
+       
+  }
+  .heading span{
+    margin-left: 1rem;
+    font-size: x-large;
+  }
+  .action {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  input, button {
+      outline: none;
+      background-color: transparent;
+      border: none;
+      margin-left: 1rem;
+  }
+  
+  .Anquora {
+      margin-top: 2rem;
+      align-items: center;
+  }
+  .menu {
+    display: flex;
+    margin: 1rem 0rem;
+    padding-top: 1rem;
+    
+  }
+  .calendar{
+    display: flex;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    background-color: coral;
+    border-radius: 9px;
+  }
